@@ -1,5 +1,5 @@
 # docker-curl
-Alpine-based image with just curl
+Alpine-based image with just curl. It has also the core-utils package installed on top of it
 
 ## Usage
 
@@ -10,7 +10,6 @@ $ docker run --rm appropriate/curl -fsSL https://www.google.com/
 ## Tags
 
 * `appropriate/curl:latest`: based on `alpine:latest`
-* `appropriate/curl:edge`: based on `alpine:edge`
 
 ## License
 
